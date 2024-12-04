@@ -1,8 +1,8 @@
-* {
+/* * {
     outline: 1px solid rgba(0, 0, 0, 0.2);
 }
 
 div, header, body, footer, section, article, aside, nav {
     outline: 2px solid red;
     background-color: rgba(255, 0, 0, 0.1);
-}
+} */
