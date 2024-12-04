@@ -26,7 +26,8 @@ nav{
 button{
     color: white;
     background-color: #0360FE;
-    padding: 12px 15px;
+    padding: 12px 20px;
+    font-weight: 300;
 }
 
 nav button{
@@ -49,6 +50,10 @@ h1{
 h3{
     font-size: 35px;
     padding: 50px 0px 30px 0px;
+}
+
+h4{
+    font-size: 22px;
 }
 
 #intro-cont{
@@ -79,12 +84,14 @@ h3{
 
 hr{
     padding: 70px 0px 50px 0px;
-    border: 3px solid rgb(230, 230, 230);
+    border: 3px solid rgb(243, 243, 243);
 }
 
 #plans{
     width: 45%;
     margin: 0 auto;
+    /* background: yellow; */
+
 }
 
 span svg{
@@ -96,4 +103,78 @@ span svg{
     display: flex;
     gap: 50px;
     padding: 50px 0px;
+}
+
+.plan{
+    width: 30%;
+}
+
+ul{
+    list-style-type: none;
+}
+
+.plan-head{
+    display: flex;
+    justify-content: center;
+    padding: 10px 0px;
+    border: 2.2px solid #d1d0d2;
+    border-bottom: none;
+    /* background: blue; */
+    /* border: 15px solid black */
+}
+
+.plan-main{
+    padding: 40px 25px;
+    border: 2.2px solid #d1d0d2;
+    /* background: green; */
+    height: 90%;
+}
+
+#plan-cont{
+    display: flex;
+    justify-content: space-between;
+    height: 750px;
+    align-items: stretch;
+    /* background: red; */
+    /* border: 5px solid black; */
+
+}
+
+#enterprise-cont{
+    margin-top: 25px;
+    /* background: yellow; */
+}
+
+#ent-cont-2{
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    padding: 40px 25px;
+}
+
+#ent-text{
+    flex-basis: 70%;
+}
+
+#partner-cont{
+    width: 45%;
+    margin: 0 auto;
+    display: flex;
+    margin-top: 200px;
+    margin-bottom: 170px;
+}
+
+#partner-cont img{
+    display: flex;
+    height: 500px;
+}
+
+#partner-text{
+    padding: 50px 40px;
+}
+
+#partner-cont button{
+    background: none;
+    color: black;
+    border: 1px solid black
 }
