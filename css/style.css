@@ -178,3 +178,37 @@ ul{
     color: black;
     border: 1px solid black
 }
+
+#business-cont{
+    width: 45%;
+    margin: 0 auto;
+}
+
+#business-cont h3{
+    padding-top: 0;
+}
+
+#business-cards-cont{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+.b-card{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    flex-basis: 30%;
+    gap: 20px;
+}
+
+.small-pic{
+    height: 20vh;
+}
+
+.last{
+    width: 45%;
+    margin: 0 auto;
+    margin-bottom: 150px;
+}
