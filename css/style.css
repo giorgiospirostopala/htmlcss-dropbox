@@ -20,7 +20,7 @@ nav{
     white-space: nowrap;
     padding: 20px;
     justify-content: space-between;
-
+    
 }
 
 button{
@@ -234,3 +234,4 @@ footer hr{
     border-top: 2px solid white;
     padding: 0;
 }
+
